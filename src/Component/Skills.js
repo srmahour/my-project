@@ -7,7 +7,7 @@ export default function Skills(){
             <div className="container mx-auto p-4 md:max-w-4xl md:px-0">
                 <h2 className='text-white text-xl mb-2'>Skills</h2>
                 <div className='flex justify-between'>
-                    <div className='h-full w-1/2 aspect-square overflow-y-scroll'>
+                    <div className='h-full w-full sm:w-1/2 aspect-square overflow-y-scroll'>
                         <Skill title="Language" tools={["HTML", "CSS/CSS3", "JavaScript", "TypeScript"]} />
 
                         <Skill title="Libraries" tools={["React", "jQuery", "Fabric.js", "D3.js"]} />
@@ -23,7 +23,7 @@ export default function Skills(){
                         <Skill title="Other tools" tools={["Photoshop", "Zeplin", "Figma", "Jira", "Git"]} />  
                        
                     </div>
-                    <img src={knowledge} alt="" className="w-1/2 mx-auto aspect-square" />
+                    <img src={knowledge} alt="" className="w-1/2 mx-auto aspect-square hidden sm:block" />
                 </div>
             </div>
         </section>
