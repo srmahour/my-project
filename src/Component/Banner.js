@@ -1,4 +1,4 @@
-import banner from '../banner.png';
+import banner from '../banner.webp';
 
 
 export default function Banner(){
