@@ -23,7 +23,7 @@ export default function Company({title, jobDescription, company, duration}){
                         </strong>
 
                         <h3 className="mt-4 text-lg font-medium sm:text-xl">
-                            <a href="" className="hover:underline"> {title}</a>
+                            {title}
                         </h3>
 
                         <p className="mt-1 text-sm text-gray-700">
